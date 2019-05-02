@@ -4,8 +4,10 @@
    <meta charset="UTF-8">
 
    <title>Text editor</title>
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="normalize.css">
    <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/style.css">
+   
 </head>
 <body>
       
@@ -13,20 +15,33 @@
 
       <form action="" class="form">
          <div class="form-title">
-            <label for="title-editor" class="form-label"></label>
+            <label for="title-editor" class="form-label">Title</label>
             <input type="text" id="title-editor" placeholder="Title" class="form-input">
          </div>
          <div class="form-bottom">
-            <button class="form-text-decoration">btn1</button>
-            <button class="form-text-decoration">btn2</button>
-            <button class="form-text-decoration">btn3</button>
-            <button class="form-text-decoration">btn4</button>
-            <button class="form-text-decoration">btn5</button>
-            <button class="form-text-decoration">btn6</button>
-            <button class="form-text-decoration">btn7</button>
-            <button class="form-text-decoration">btn8</button>
-            <button class="form-text-decoration">btn9</button>
-            <button class="form-text-decoration">btn10</button>
+            <button class="form-text-decoration text-decoration_color">B</button>
+            <button class="form-text-decoration text-decoration_uppercase"><small>t</small>T</button>
+            <button class="form-text-decoration decoration-image">btn4</button>
+            <button class="form-text-decoration text-decoration_bold">B</button>
+            <button class="form-text-decoration text-decoration_italic">i</button>
+            <button class="form-text-decoration text-decoration_underline">U</button>
+            <button class="form-text-decoration text-decoration_justify">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+            </button>
+            <button class="form-text-decoration text-decoration_left">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+            </button>
+            <button class="form-text-decoration text-decoration_center">btn9</button>
+            <button class="form-text-decoration text-decoration_right">btn8</button>
+            
          </div>
       </form>
    </div>
@@ -44,7 +59,9 @@
 
       <div class="article-content">
          <p>I’ve seen things you people wouldn’t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark
-          near the Tannhauser gate. All those moments will be lost in time... like tears in rain... Time to die.</p>
+          near the Tannhauser gate. All those moments will be lost in time... like tears in rain... 
+          <i>Time to die.</i>
+         </p>
           <p>I don’t know why he saved my life. Maybe in those last moments he loved life more than he ever had before. Not just his life 
              - anybody’s life; my life. All he’d wanted were the same answers...</p>
       </div>
